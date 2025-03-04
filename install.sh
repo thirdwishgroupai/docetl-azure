@@ -28,9 +28,6 @@ cd docetl-azure
 pip install -r requirements.txt
 cd ..
 
-# --- Install Specific Versions of docetl ---
-echo "Installing docetl==0.28..."
-pip install docetl==0.28
 echo "Installing docetl==0.2.1 (this will override the previous version)..."
 pip install docetl==0.2.1
 
